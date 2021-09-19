@@ -45,7 +45,7 @@
     color: white;
 }
 #search .form-order{
-    padding-left: 36%;
+    margin-left: 36%;
     padding-bottom: 10px    ;
 }
 #search .selected-food{
@@ -62,8 +62,9 @@
     font-size: 10px;
 }
 #search .form-delivery{
-    padding-left: 36%;
+    margin-left: 36%;
     border-radius: 8%;
+    padding-bottom: 30px;
 }
 #search .delivery-input{
     width: 100%;
