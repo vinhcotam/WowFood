@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    background: #fff;
+    height: 80px;
+}
+#header .logo{
+    margin-left: 80px;
+    font-size: 15px;
+    
+}
+#header .section{
+    font-size: 30px;
+    margin-right: 15px;
+    text-decoration: none;
+    display: block;
+    float: right;
+ 
+}
+#header .menu a{
+    text-decoration: none;
+    margin-right: 15px;
+    color:red;
+    
+    
+}
+#search{
+    position: relative;
+    margin-top: 30px;
+    padding-top: 50px;
+    text-align: center !important;
+}
+#search .search-img{
+    border-style: none;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+#search .search-section{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-700%);
+}
+.search-btn:hover{
+    background-color: red;
+}
+#content{
+    padding-top: 50px;
+    position: relative;
+}
+#content h2{
+    text-align: center;
+}
+#content .content-foods{
+    padding-top: 50px;  
+    padding-bottom: 50px;
+    text-align: center;
+    padding-left: 32px;
+    
+}
+.foods-list{
+    width: 24%;
+    float: left;
+}
+.food-img{
+    margin-top: 15px;
+    padding: 2%;
+    border-radius: 8%;
+    width: 80%;
+    
+}
+.foods-list p{
+    transform: translate(0, -400%);
+    text-decoration: transparent;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+#menu{
+    padding-top: 20px;
+    position: relative;
+    background-color: #ccc;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+#menu .menu-container{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 2%;
+    padding: 10%;
+    text-align: center;
+}
+#menu .menu-list{
+    background-color:white;
+    margin: 15px;
+    float: left;
+    border-radius: 10px;
+    width: 40%;
+    height: 5%; 
+    padding: 10px;   
+    
+}
+#menu .order-btn{
+    background-color: rgba(255,0,157);
+    border-radius: 20px;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    float: left;
+    
+}
+#menu .content-foods{
+    padding-left: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#menu .menu-heading{
+    text-align: center;
+    padding-top: 50px;
+    top:0;
+    padding-bottom: 15px;
+}
+#menu .menu-decription{
+   text-align: left;
+    margin-left: 100%;
+    display: inline;
+    font-size: 15px;
+}
+.menu-img{
+    border-radius: 8%;
+    float: left;
+    width: 40%;
+    padding: 2%;
+    top:2px;
+    left: 2px;
+}
+#menu .food-ending p{
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+#menu p{
+    color:#ccc;
+}
+#footer{
+    text-align: center;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+#footer a{
+    
+    text-decoration: none;  
+}
+.fab{
+    font-family: "Font Awesome 5 Brands";
+}
+
+
+
+

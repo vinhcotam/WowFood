@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <div id="header">
+        <a href="" class="header-logo"><img src="img/logo.png"></a>
+        <div class="section">
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">Categories</a>
+                <a href="#">Foods</a>
+                <a href="#footer">Contact</a>
+            </nav>
+        </div>
+    </div>
+    <div id="search">
+        <!--<img src="img/bg.jpg" width="100%" class="search-img">-->
+        <h1>Fill this form to confirm your order</h1>
+        <div class="form-order">
+            <fieldset class="selected-food">
+                <legend>Selected Food</legend>
+                <div class="order-food">
+                    <img src="img/menu-pizza.jpg" class="food-img">
+                    <div class="order-decription">
+                        <h4>Food Title</h4>
+                        <h5>$2.3</h5>
+                        <p>Quantity</p>
+                        <input type="number" class="food-input">
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="form-delivery">
+            <fieldset class="delivery-food">
+                <legend>Delivery Details</legend>
+                <div class="delivery-food-container">
+                    <div class="delivery-container">
+                        <h5>Full name</h5>    
+                        <input type="text" placeholder="E.g Vijay Thapa" class="delivery-input">                     
+                    </div>
+                    <div class="delivery-container">
+                        <h5>Phone Number</h5>
+                        <input type="tel" placeholder="E.g. 9843xxxxxx" class="delivery-input">
+                    </div>
+                    <div class="delivery-container">
+                        <h5>Email</h5>
+                        <input type="email" placeholder="E.g. hi@vijaythapa.com" class="delivery-input">
+                    </div>
+                    <div class="delivery-container">
+                        <h5>Address</h5>
+                        <input type="text" placeholder="E.g. Street, City, Country"  class="add delivery-input" >
+                    </div>
+                    <input type="button" class="btn-order" value="Confirm Order"> 
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <div id="footer">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+
+        <i class="fab fa-twitter-square"></i>
+        <div class="footer-content">
+            <p>All rights reserved Designed By<a style="color: red;" href="#"> Vijay Thapa</a></p>
+        </div>
+    </div>
+</body>
+</html>

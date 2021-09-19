@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <div id="header">
+        <a href="" class="header-logo"><img src="img/logo.png"></a>
+        <div class="section">
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#content">Categories</a>
+                <a href="#menu">Foods</a>
+                <a href="#footer">Contact</a>
+            </nav>
+        </div>
+    </div>
+    <div id="search">
+        <img src="img/bg.jpg" width="100%" class="search-img">
+        <div class="search-section">
+            <input type="text" value="" class="search-text" placeholder="Search for foods">
+            <input type="button" value="Search" class="search-btn">            
+        </div>
+    </div>
+    <div id="content">
+        <h2 > Explore Foods</h2>
+            <div class="content-foods">
+                <div class="foods-list" style="margin-left:14%">
+                    <img src="img/pizza.jpg" class="food-img" >
+                    <p>Pizza</p>    
+                </div>
+                <div class="foods-list">
+                    <img src="img/burger.jpg" class="food-img">
+                    <p>Burger</p>
+                </div>
+                <div class="foods-list" >
+                    <img src="img/momo.jpg" class="food-img">
+                    <p>Momo</p>
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+    </div>
+    <div id="menu">
+        <div class="menu-heading">
+            <h2 >Food menu</h2>
+        </div>
+            <div class="menu-container">
+                <div class="menu-list">
+                    <img src="img/menu-pizza.jpg" class="menu-img">
+                    <div class="menu-decription">
+                        <h4>Food Title</h4>
+                        <h5>$2.3</h5>
+                        <p>Made with Italian Sauce, Chicken, and organice vegetables</p>
+                        <input type="button" value="Order now" class="order-btn">
+                    </div>
+                </div>
+                <div class="menu-list">
+                    <img src="img/menu-burger.jpg" class="menu-img">
+                    <div class="menu-decription">
+                        <h4>Food Title</h4>
+                        <h5>$2.3</h5>
+                        <p>Made with Italian Sauce, Chicken, and organice vegetables</p>
+                        <input type="button" value="Order now" class="order-btn">
+                    </div>
+                </div>
+                <div class="menu-list" >
+                    <img src="img/menu-burger.jpg" class="menu-img">
+                    <div class="menu-decription">
+                        <h4>Food Title</h4>
+                        <h5>$2.3</h5>
+                        <p>Made with Italian Sauce, Chicken, and organice vegetables</p>
+                        <input type="button" value="Order now" class="order-btn">
+                    </div>
+                </div>
+                <div class="menu-list">
+                    <img src="img/menu-pizza.jpg" class="menu-img">
+                    <div class="menu-decription">
+                        <h4>Food Title</h4>
+                        <h5>$2.3</h5>
+                        <p>Made with Italian Sauce, Chicken, and organice vegetables</p>
+                        <input type="button" value="Order now" class="order-btn">
+                    </div>
+                </div>
+                <div class="menu-list" >
+                    <img src="img/menu-pizza.jpg" class="menu-img">
+                    <div class="menu-decription">
+                        <h4>Food Title</h4>
+                        <h5>$2.3</h5>
+                        <p>Made with Italian Sauce, Chicken, and organice vegetables</p>
+                        <input type="button" value="Order now" class="order-btn">
+                    </div>
+                </div>
+                <div class="menu-list">
+                    <img src="img/menu-momo.jpg" class="menu-img">
+                    <div class="menu-decription">
+                        <h4>Food Title</h4>
+                        <h5>$2.3</h5>
+                        <p >Made with Italian Sauce, Chicken, and organice vegetables</p>
+                        <input type="button" value="Order now" class="order-btn">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="food-ending">
+                <p>See all food</p>
+            </div>
+    </div>
+    <div id="footer">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+        <div class="footer-content">
+            <p>All rights reserved Designed By<a style="color: red;" href="#"> Vijay Thapa</a></p>
+        </div>
+    </div>
+</body>
+</html>
